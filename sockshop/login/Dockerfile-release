@@ -1,4 +1,4 @@
-FROM scratch
+FROM busybox:1
 
 EXPOSE 80
 COPY users.json /config/users.json
